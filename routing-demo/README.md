@@ -78,3 +78,4 @@ export default → import ... from './Template'
 //header will wrap all the items which should come in header
 // <a href=""> some link</a> by using anchor tag it will send request to server but since it is redundant server is already running component is rendered
 // and if we use link instead then it will not send request to server click listener is attached to it that prevents from sending request to sever it will just load the appropriate part of component
+//for keeping scope of css to component use name.module.css
